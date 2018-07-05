@@ -1,0 +1,23 @@
+java 8
+how to convert a String to java.util.Date. Many Java beginners are stuck in the Date conversion,
+ hope this summary guide will helps you in some ways.
+
+    // String -> Date
+    SimpleDateFormat.parse(String);
+
+    // Date -> String
+    SimpleDateFormat.format(date);
+Copy
+Refer to table below for some of the common date and time patterns used in java.text.SimpleDateFormat,
+ refer to this JavaDoc
+
+Letter	Description	Examples
+y	Year	2013
+M	Month in year	July, 07, 7
+d	Day in month	1-31
+E	Day name in week	Friday, Sunday
+a	Am/pm marker	AM, PM
+H	Hour in day	0-23
+h	Hour in am/pm	1-12
+m	Minute in hour	0-60
+s	Second in minute	0-60
